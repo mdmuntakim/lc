@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/LcHeading"
+            android:text="@string/section_status" />
+
+        <TextView
+            android:id="@+id/status"
+            style="@style/LcBody"
+            android:text="@string/status_stopped" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/start"
+                style="@style/LcButton"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/stop"
+                style="@style/LcButton"
+                android:text="@string/stop" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/LcHeading"
+            android:text="@string/section_token" />
+
+        <TextView
+            android:id="@+id/token"
+            style="@style/LcMono"
+            android:textIsSelectable="true"
+            android:text="@string/token_placeholder" />
+
+        <Button
+            android:id="@+id/rotate"
+            style="@style/LcButton"
+            android:text="@string/rotate_token" />
+
+        <TextView
+            style="@style/LcHeading"
+            android:text="@string/section_settings" />
+
+        <Switch
+            android:id="@+id/bootSwitch"
+            style="@style/LcSwitch"
+            android:text="@string/boot_switch" />
+
+        <Switch
+            android:id="@+id/advancedSwitch"
+            style="@style/LcSwitch"
+            android:text="@string/advanced_switch" />
+
+        <Switch
+            android:id="@+id/lanSwitch"
+            style="@style/LcSwitch"
+            android:text="@string/lan_switch" />
+
+        <TextView
+            android:id="@+id/lanInfo"
+            style="@style/LcSmall"
+            android:text="@string/lan_off_info" />
+
+        <EditText
+            android:id="@+id/port"
+            style="@style/LcInput"
+            android:hint="@string/port_hint"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/timeout"
+            style="@style/LcInput"
+            android:hint="@string/timeout_hint"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/apply"
+            style="@style/LcButton"
+            android:text="@string/apply_settings" />
+
+        <TextView
+            style="@style/LcHeading"
+            android:text="@string/section_audit" />
+
+        <Button
+            android:id="@+id/viewAudit"
+            style="@style/LcButton"
+            android:text="@string/view_audit" />
+
+        <Button
+            android:id="@+id/clearAudit"
+            style="@style/LcButton"
+            android:text="@string/clear_audit" />
+
+        <TextView
+            style="@style/LcSmall"
+            android:text="@string/privacy_note" />
+    </LinearLayout>
+</ScrollView>

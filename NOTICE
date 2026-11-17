@@ -1,0 +1,15 @@
+LC — notices
+============
+
+LC application source is MIT-licensed (see LICENSE).
+
+Third-party components shipped inside the APK:
+
+* AndroidX core-ktx, appcompat; Material Components
+  - Apache License 2.0, Copyright The Android Open Source Project
+* BouncyCastle bcprov-jdk18on, bcpkix-jdk18on (self-signed TLS certificate
+  generation for the opt-in LAN mode)
+  - Bouncy Castle licence (MIT-like): https://www.bouncycastle.org/licence.html
+
+No BusyBox or GPL code is bundled. Commands run through Android's own system
+binaries (toybox and friends); see docs/COMMANDS.md for the mapping.

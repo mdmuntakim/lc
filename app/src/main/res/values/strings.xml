@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LC</string>
+
+    <string name="section_status">Status</string>
+    <string name="status_stopped">Console stopped</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <string name="section_token">Pairing token</string>
+    <string name="token_placeholder">Start the console once to generate the token.</string>
+    <string name="rotate_token">Rotate token</string>
+
+    <string name="section_settings">Settings</string>
+    <string name="boot_switch">Start on boot (off by default)</string>
+    <string name="advanced_switch">Advanced mode — allowlist off</string>
+    <string name="lan_switch">LAN mode — TLS + token required</string>
+    <string name="lan_off_info">LAN mode is off: only this device can reach the console.</string>
+    <string name="port_hint">Port (default 6767)</string>
+    <string name="timeout_hint">Command timeout seconds (default 30)</string>
+    <string name="apply_settings">Apply network / timeout settings</string>
+
+    <string name="section_audit">Audit log</string>
+    <string name="view_audit">View audit log</string>
+    <string name="clear_audit">Clear audit log</string>
+
+    <string name="privacy_note">Everything runs on this device: commands execute as this app\'s own UID (never root), output stays in the app sandbox, and nothing is sent anywhere unless a command you ran uses the network itself.</string>
+
+    <string name="disclosure_title">What LC does</string>
+    <string name="disclosure_accept">I understand</string>
+    <string name="disclosure_decline">Close LC</string>
+</resources>
